@@ -130,7 +130,7 @@ jobs:
           context: ./gateway/
           push: true
           tags: vladislavmalygin/taski_gateway:latest
-   deploy:
+  deploy:
     runs-on: ubuntu-latest
     needs: 
       # Дождёмся билда всех образов Taski
